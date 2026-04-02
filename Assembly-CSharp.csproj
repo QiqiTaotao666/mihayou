@@ -117,6 +117,7 @@
     <None Include="Assets\Mirza\VFXToolkit\Shaders\Particles\Unlit Particle.shader" />
     <None Include="Assets\mihayou\Shaders\TerrainLitBase_Stencil.shader" />
     <None Include="Assets\mihayou\FX\M_Tunnel.shader" />
+    <None Include="Assets\mihayou\Star\Moon\M_Sun Corna.shader" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Transform.cginc" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\SDF.cginc" />
     <None Include="Assets\mihayou\Shaders\TerrainLit_Stencil.shader" />

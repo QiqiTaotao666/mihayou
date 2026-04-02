@@ -19,7 +19,7 @@ Material:
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 2001
   stringTagMap:
     RenderType: Opaque
   disabledShaderPasses: []
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Distortion:
-        m_Texture: {fileID: 2800000, guid: 1e13c074237d4c62b56ecb5d5b17a28d, type: 3}
+        m_Texture: {fileID: 2800000, guid: e231e4c02c48ee14aafa55f7b1a843c1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -157,7 +157,7 @@ Material:
     - _InvertvColor: 1
     - _LayerNormalPower: 0.5
     - _LayerTiling: 40
-    - _Metallic: 0.517
+    - _Metallic: 1
     - _Mode: 0
     - _NormalPower: 0.05
     - _OcclusionStrength: 1
@@ -171,7 +171,7 @@ Material:
     - _SpecularHighlights: 1
     - _Speed: 0
     - _SrcBlend: 1
-    - _StencilComp: 6
+    - _StencilComp: 3
     - _StencilFail: 0
     - _StencilPass: 0
     - _StencilReadMask: 255
