@@ -94,7 +94,7 @@ Material:
     - _ReflectionBumpScale: 1
     - _ReflectionIntensity: 0.99
     - _SmoothnessTextureChannel: 0
-    - _SpecularGloss: 18.8
+    - _SpecularGloss: 27
     - _SpecularHighlights: 1
     - _SpecularIntensity: 1
     - _SrcBlend: 1
@@ -122,5 +122,5 @@ Material:
     - _LowGlowCol: {r: 1, g: 1, b: 1, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _SubColor: {r: 0.23820755, g: 0.32547173, b: 0.5, a: 1}
-    - _TopColor: {r: 0.4509804, g: 0.58980143, b: 0.8666667, a: 1}
+    - _TopColor: {r: 0, g: 0.33018875, b: 1, a: 1}
   m_BuildTextureStacks: []

@@ -356,7 +356,7 @@ Shader "QF/Env/0Ice/IceThickness_SuperHigh"
 			#endif
 
 				half3 lightMapCol = GetLM(NoL, i.texcoord1.xy, occlusion, mainLightColor);
-
+				//half3 lightMapCol = float3(1, 1, 1);
 				half3 SpecMaskCubemask = SAMPLE_TEXTURE2D(_SpecMaskCubemask, sampler_SpecMaskCubemask, i.texcoord.xy).rgb;
 				half mask = saturate(SpecMaskCubemask.g * _Opacity);
 
