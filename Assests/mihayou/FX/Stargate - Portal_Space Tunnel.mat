@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Stargate - Portal_Space Tunnel
+  m_Shader: {fileID: 4800000, guid: 291b1c7398b603e41955d03c46fdc6d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FlowTex:
+        m_Texture: {fileID: 2800000, guid: 460094ae3cb43b04fac32f29f4ef3531, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0367258e2ad152f409ca527cc67183f5, type: 3}
+        m_Scale: {x: 3, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkyTex:
+        m_Texture: {fileID: 8900000, guid: 2b81b1e869d4b204490895ef00728420, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlendDst: 10
+    - _BlendSrc: 5
+    - _StencilComp: 3
+    - _StencilFail: 0
+    - _StencilPass: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 2
+    - _StencilWriteMask: 255
+    - _StencilZFail: 0
+    m_Colors:
+    - _ColorA: {r: 0.9267393, g: 0.27604997, b: 2.0112214, a: 1}
+    - _ColorB: {r: 2.5134327, g: 0, b: 12.915063, a: 1}
+    - _EmissionColor: {r: 0.45485952, g: 0.6544814, b: 1.6392109, a: 1}
+    - _PhaseStabilization: {r: 0.3419144, g: 2.832019, b: 0, a: 172.9}
+    - _Settings: {r: -15, g: 10, b: 10, a: 20}
+    - _Settings3: {r: 1, g: 1, b: 3.88, a: 1}
+    - _Settings4: {r: -1.31, g: -1.5, b: 1, a: 1}
+    - _Settings5: {r: 1, g: 1, b: 1, a: 1}
+    - _Settings6: {r: 1.6, g: 2.67, b: -0.7, a: 0.33}
+    - _Settings8: {r: 0.8740581, g: 0.14, b: 1, a: -1.58}
+  m_BuildTextureStacks: []

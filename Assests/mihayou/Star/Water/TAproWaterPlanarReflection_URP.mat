@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TAproWaterPlanarReflection_URP
+  m_Shader: {fileID: 4800000, guid: 080b0c5f5cee2194889336d01f40a45b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: f960eabe8cab13c468dccc7faa25bf4b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal2:
+        m_Texture: {fileID: 2800000, guid: f960eabe8cab13c468dccc7faa25bf4b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DistortRange: 0.123
+    - _Distortion: 0.062
+    - _NormalScale: 1.024
+    - _NormalScale2: 1
+    - _RippleFrequency: 11.6
+    - _RippleIntensity: 89.8
+    - _RippleRange: 24
+    - _SpecularIntensity: 0.72
+    - _SpecularRange: 0.46
+    - _Speed: 0.097
+    - _StencilComp: 0
+    - _StencilFail: 0
+    - _StencilPass: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilWriteMask: 255
+    - _StencilZFail: 0
+    - _Titling: 0.01
+    m_Colors:
+    - _RipplePos: {r: 24.4, g: 0.98, b: -1.2, a: 0}
+    - _SpecularTint: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
