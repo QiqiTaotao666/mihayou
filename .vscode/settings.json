@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "mihayou3 - 副本.sln"
+    "dotnet.defaultSolution": "mihayou4.sln"
 }

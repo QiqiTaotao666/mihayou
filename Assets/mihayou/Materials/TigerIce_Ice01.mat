@@ -13,6 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ICE_CRACKS
+  - _PLANAR_REFLECTION_ON
   m_InvalidKeywords:
   - _USEADDITIONALSHADOW_ON
   m_LightmapFlags: 4
@@ -89,7 +90,7 @@ Material:
     - _OcclusionStrength: 1
     - _Opacity: 1.397
     - _Parallax: 0.02
-    - _PlanarReflection: 0
+    - _PlanarReflection: 1
     - _ReflectionBumpScale: 1
     - _ReflectionIntensity: 0.99
     - _SmoothnessTextureChannel: 0

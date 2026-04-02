@@ -45,7 +45,7 @@ Material:
     - _SkyHorizonColor: {r: 0.65, g: 0.82, b: 0.95, a: 1}
     - _SkyTopColor: {r: 0.2, g: 0.5, b: 0.85, a: 1}
     - _SunAColor: {r: 1, g: 0.363357, b: 0, a: 1}
-    - _SunADirection: {r: -0.4874788, g: -0.031264663, b: 0.8725749, a: 0}
+    - _SunADirection: {r: 0.36690974, g: 0.41713607, b: 0.83148956, a: 0}
     - _SunBColor: {r: 0, g: 0.94868517, b: 1, a: 1}
     - _SunBDirection: {r: 0.16044797, g: 0.31187963, b: 0.9364764, a: 0}
   m_BuildTextureStacks: []

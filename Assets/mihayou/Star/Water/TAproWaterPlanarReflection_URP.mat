@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3001
+  m_CustomRenderQueue: 2999
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -47,7 +47,7 @@ Material:
     - _SpecularIntensity: 0.72
     - _SpecularRange: 0.46
     - _Speed: 0.097
-    - _StencilComp: 0
+    - _StencilComp: 6
     - _StencilFail: 0
     - _StencilPass: 0
     - _StencilReadMask: 255
