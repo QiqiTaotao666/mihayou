@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TigerIce_Ice01
+  m_Shader: {fileID: 4800000, guid: be617aad662501c49b2f1776c49a813f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ICE_CRACKS
+  m_InvalidKeywords:
+  - _USEADDITIONALSHADOW_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2002
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CracksTex:
+        m_Texture: {fileID: 2800000, guid: 0c6575f642413674ca4c8c832cdd21af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DustTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _LowGlow:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7baeedbbe63651940828cab528aff1de, type: 3}
+        m_Scale: {x: 7, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: f6ed7b7d4209e7146b399ff6cc40f01d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionCube:
+        m_Texture: {fileID: 8900000, guid: ef7513b54a0670140b9b967af7620563, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMaskCubemask:
+        m_Texture: {fileID: 2800000, guid: 0c6575f642413674ca4c8c832cdd21af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TireTrackMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TransmissionTex:
+        m_Texture: {fileID: 2800000, guid: 7baeedbbe63651940828cab528aff1de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _CracksDepthScatterng: -0.1
+    - _CracksDepthSmooth: 0.5
+    - _CracksDepthStepSize: 0.03
+    - _CracksHeight: 0.2
+    - _CracksWidth: 0.98
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Distortion: 0.052
+    - _DstBlend: 0
+    - _DustHeight: 1.59
+    - _DustSecondNumStepU: 0.5
+    - _DustSecondNumStepV: 0.5
+    - _FresnelBias: 0.256
+    - _FresnelPower: 1.295
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _ICE: 1
+    - _LowGlowMul: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalScale: 2
+    - _OcclusionStrength: 1
+    - _Opacity: 1.397
+    - _Parallax: 0.02
+    - _PlanarReflection: 0
+    - _ReflectionBumpScale: 1
+    - _ReflectionIntensity: 0.99
+    - _SmoothnessTextureChannel: 0
+    - _SpecularGloss: 18.8
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 1
+    - _SrcBlend: 1
+    - _StencilComp: 3
+    - _StencilFail: 0
+    - _StencilPass: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilWriteMask: 255
+    - _StencilZFail: 0
+    - _SubOpacity: 0.282
+    - _TireTrack: 0
+    - _TransmissionShadowScale: 1
+    - _USEAdditionalShadow: 1
+    - _UVSec: 0
+    - _UnRealFresnelScale: 0.667
+    - _ZWrite: 1
+    m_Colors:
+    - _BottomColor: {r: 0.6746323, g: 0.58147913, b: 0.6886792, a: 1}
+    - _BrightPartColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CracksColor: {r: 0.40000004, g: 0.60784316, b: 0.7254902, a: 1}
+    - _DustColor: {r: 0.6039216, g: 0.72156864, b: 0.83921576, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LowGlowCol: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SubColor: {r: 0.23820755, g: 0.32547173, b: 0.5, a: 1}
+    - _TopColor: {r: 0.4509804, g: 0.58980143, b: 0.8666667, a: 1}
+  m_BuildTextureStacks: []

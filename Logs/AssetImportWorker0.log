@@ -1,0 +1,1173 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.62f3c1 (1623fc0bbb97) revision 1451004'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'zh' Physical Memory: 64978 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f3c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/kktaozhang/Desktop/mihayou3 - 副本
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62804
+Successfully changed project path to: C:/Users/kktaozhang/Desktop/mihayou3 - 副本
+C:/Users/kktaozhang/Desktop/mihayou3 - 副本
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [118508]  Target information:
+
+Player connection [118508]  * "[IP] 30.29.63.97 [Port] 0 [Flags] 2 [Guid] 3976256150 [EditorId] 3976256150 [Version] 1048832 [Id] WindowsEditor(7,KKTAOZHANG-PC4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [118508]  * "[IP] 192.168.255.10 [Port] 0 [Flags] 2 [Guid] 3976256150 [EditorId] 3976256150 [Version] 1048832 [Id] WindowsEditor(7,KKTAOZHANG-PC4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [118508]  * "[IP] 172.18.64.1 [Port] 0 [Flags] 2 [Guid] 3976256150 [EditorId] 3976256150 [Version] 1048832 [Id] WindowsEditor(7,KKTAOZHANG-PC4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [118508] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [118508] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 5.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3c1 (1623fc0bbb97)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kktaozhang/Desktop/mihayou3 - 副本/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 (ID=0x2d05)
+    Vendor:   NVIDIA
+    VRAM:     7807 MB
+    Driver:   32.0.15.8104
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004260 seconds.
+- Loaded All Assemblies, in  0.243 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.203 seconds
+Domain Reload Profiling: 446ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (77ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (203ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (172ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.470 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.433 seconds
+Domain Reload Profiling: 903ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (278ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (81ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass Stencil)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass Stencil)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit (Stencil)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit (Stencil)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4335 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (2.5 MB). Loaded Objects now: 4792.
+Memory consumption went from 277.6 MB to 275.2 MB.
+Total: 2.912300 ms (FindLiveObjects: 0.266500 ms CreateObjectMapping: 0.104600 ms MarkObjects: 1.985100 ms  DeleteObjects: 0.555000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1377091.868250 seconds.
+  path: Assets/BK/PureNature_Volcano/Textures/Lava/Materials/Lava_lake_large.mat
+  artifactKey: Guid(ad4468edcb3648b19b728ef258fa9501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Textures/Lava/Materials/Lava_lake_large.mat using Guid(ad4468edcb3648b19b728ef258fa9501) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cc638777287faaafa9892b5d058b343a') in 0.360318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 23.644724 seconds.
+  path: Assets/mihayou/Materials/MI_Statue_Base_Klee.mat
+  artifactKey: Guid(c016a4e5f21533b478f304bf516cbe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/Materials/MI_Statue_Base_Klee.mat using Guid(c016a4e5f21533b478f304bf516cbe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5e13dc59b4f94cef362114b6107ef582') in 0.036285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/mihayou/Materials/MI_Stecil.mat
+  artifactKey: Guid(f548de051435df746bc3938c4df41cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/Materials/MI_Stecil.mat using Guid(f548de051435df746bc3938c4df41cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a22e604725a23181b9c9678e112f2eff') in 0.007960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.412243 seconds.
+  path: Assets/mihayou/Materials/Shasder/My_Stencil_Only.mat
+  artifactKey: Guid(2379dc698a0deb147b128a4564f65831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/Materials/Shasder/My_Stencil_Only.mat using Guid(2379dc698a0deb147b128a4564f65831) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e55ded18d0011c0d87ced833c9485f49') in 0.006691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 37.164786 seconds.
+  path: Assets/Presets/AudioStreaming.preset
+  artifactKey: Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/AudioStreaming.preset using Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6d3cf681bc4f98db083cee6da41e435f') in 0.001512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.737126 seconds.
+  path: Assets/Presets/Defaults/AudioDecompressOnLoad.preset
+  artifactKey: Guid(e7689051185d12f4298e1ebb2693a29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/AudioDecompressOnLoad.preset using Guid(e7689051185d12f4298e1ebb2693a29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '632232d6a6e27b2ea1fdd7abd9a0d825') in 0.001006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 42.270680 seconds.
+  path: Assets/BK/PureNature_Volcano/Textures/Fx/Textures/Materials/Lava_Bubble.mat
+  artifactKey: Guid(d8e4821ac6964ac8b2c84ef0958e8a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Textures/Fx/Textures/Materials/Lava_Bubble.mat using Guid(d8e4821ac6964ac8b2c84ef0958e8a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c088dcd3824aba0ae8487787d5fbf09a') in 0.455910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/LavaDry_3_a.png
+  artifactKey: Guid(a0c753d8670e47beac0054c7eba74f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/LavaDry_3_a.png using Guid(a0c753d8670e47beac0054c7eba74f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9df97c718328689b25b99534d3a4ef8e') in 0.016413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BK/PureNature_Volcano/Textures/Surfaces/Materials/LavaDry.mat
+  artifactKey: Guid(934af43df7ef48ee9727e7fe5bbc5186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Textures/Surfaces/Materials/LavaDry.mat using Guid(934af43df7ef48ee9727e7fe5bbc5186) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '00b4bd2b0c195755b6ba717a601478a3') in 0.438862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/LavaDry_3_mask.png
+  artifactKey: Guid(503bcf1aaf034dbc8fba99a218815846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/LavaDry_3_mask.png using Guid(503bcf1aaf034dbc8fba99a218815846) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5eb6032ecac5367b65e2ec64a8ab95c6') in 0.025500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/Materials/LavaDry_4.mat
+  artifactKey: Guid(3fd12e58aa1545f0b32edb5a120a35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/Materials/LavaDry_4.mat using Guid(3fd12e58aa1545f0b32edb5a120a35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '95567285c55fe951cb2ff6cb9cfb0210') in 0.601763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaDry/LavaDry_2.fbx
+  artifactKey: Guid(38e33e46b1284fe5be0e5af44c60173f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaDry/LavaDry_2.fbx using Guid(38e33e46b1284fe5be0e5af44c60173f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '523d8c425a9d5a3716e5ab03989bf0e5') in 0.068664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/LavaDry_0_n.png
+  artifactKey: Guid(f9364b7751c54f04ae86858f471dc419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/LavaDry_0_n.png using Guid(f9364b7751c54f04ae86858f471dc419) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd15ce0a80182fd53679ea6de8faf6f16') in 0.018586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/LavaDry_3_n.png
+  artifactKey: Guid(418796c2c14541689902a5d20798eb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/LavaDry_3_n.png using Guid(418796c2c14541689902a5d20798eb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'bb32137f2274427b8c960d2ccbadfc16') in 0.018118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/LavaDry_1_n.png
+  artifactKey: Guid(9e1b7c7fbdfe446f859b676da33e1354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/LavaDry_1_n.png using Guid(9e1b7c7fbdfe446f859b676da33e1354) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '49c49bcd0df5e9898e5434203295e9c2') in 0.016147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BK/PureNature_Volcano/Prefabs/LavaDry/LavaDry_3.prefab
+  artifactKey: Guid(895803663dc84e1e83b2c8542fa31cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Prefabs/LavaDry/LavaDry_3.prefab using Guid(895803663dc84e1e83b2c8542fa31cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e8019b9a45d1f0d824ddcaede91e29d8') in 0.045704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/Materials/LavaDry_2.mat
+  artifactKey: Guid(cce7d896ac0f4bb6b2b64a713752d1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaDry/Textures/Materials/LavaDry_2.mat using Guid(cce7d896ac0f4bb6b2b64a713752d1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '15f70992d443f6eae8f713de2af2c96f') in 0.041683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 18.773882 seconds.
+  path: Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaFall_3.prefab
+  artifactKey: Guid(4f172ece8afb4eeeab33867ec89141c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaFall_3.prefab using Guid(4f172ece8afb4eeeab33867ec89141c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f53107aa553e6c727044c0937e0736d4') in 0.020784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaFall_4.prefab
+  artifactKey: Guid(e766f550183b4312b2dc6832bae049f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaFall_4.prefab using Guid(e766f550183b4312b2dc6832bae049f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2dc3da98015110f54b9a53fbd935fe7a') in 0.016695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 18.413098 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaStreams/LavaFall_6.fbx
+  artifactKey: Guid(ae0f836f20744733997ab6bfa33d14f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaStreams/LavaFall_6.fbx using Guid(ae0f836f20744733997ab6bfa33d14f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6afa943a725cd5e511faf3b94122f282') in 0.049071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaStreams/LavaFall_9.fbx
+  artifactKey: Guid(c9948e45e0cf410ca9aaacb501498370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaStreams/LavaFall_9.fbx using Guid(c9948e45e0cf410ca9aaacb501498370) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '70de5bc2faeffd3771ed9a682576b909') in 0.679776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 15.436090 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaStreams/LavaStream_4.fbx
+  artifactKey: Guid(1a70ed7121f64c5ebfedcf1b68727789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaStreams/LavaStream_4.fbx using Guid(1a70ed7121f64c5ebfedcf1b68727789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5b566071f0d36ca77502578779ae36e6') in 0.043829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.001053 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaStreams/LavaStream_7.fbx
+  artifactKey: Guid(bcbf3e899af84491b4bd5173d906746a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaStreams/LavaStream_7.fbx using Guid(bcbf3e899af84491b4bd5173d906746a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '30272a22b19ed6d9873f9cd8fab29670') in 0.045083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.186575 seconds.
+  path: Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaStream_10.prefab
+  artifactKey: Guid(e13b265c97f8423680f63f934dda85f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaStream_10.prefab using Guid(e13b265c97f8423680f63f934dda85f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a6e9e8d2e0cc885aa4027814e873f30a') in 0.019762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaStream_slope_2.prefab
+  artifactKey: Guid(6de672e9e8ed44eeaf3594a4627bf2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaStream_slope_2.prefab using Guid(6de672e9e8ed44eeaf3594a4627bf2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '60b02f949dc30d674c99a57becc3c4d3') in 0.016661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaStream_slope_1.prefab
+  artifactKey: Guid(d54039bd8be043b28db191abce27780d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaStream_slope_1.prefab using Guid(d54039bd8be043b28db191abce27780d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8226e979829e013c728dc049e512ddca') in 0.017553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaStream_slope_4.prefab
+  artifactKey: Guid(427e4149bf9a49a29ea41b4cee2093ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaStream_slope_4.prefab using Guid(427e4149bf9a49a29ea41b4cee2093ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '438e007bddfd0966a60916db41a5f294') in 0.016058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaStream_slope_8.prefab
+  artifactKey: Guid(01498b2d312341618f9a89ad7c516674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Prefabs/Lava/LavaStream_slope_8.prefab using Guid(01498b2d312341618f9a89ad7c516674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1b28c9b40908c2b94790caf1298d5d4d') in 0.017930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaStreams/LavaStream_slope_8.fbx
+  artifactKey: Guid(b1c345007b134641897cecaff6464616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaStreams/LavaStream_slope_8.fbx using Guid(b1c345007b134641897cecaff6464616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cec6396f70cceeddbf0b936a6c9abbe2') in 0.036345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.097795 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/LavaStreams/LavaStream_slope_10.fbx
+  artifactKey: Guid(927c56e3cc1c4058804809a82facbab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/LavaStreams/LavaStream_slope_10.fbx using Guid(927c56e3cc1c4058804809a82facbab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9e17d5cdc374c9824b466a70be1302ef') in 0.044469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 19.259120 seconds.
+  path: Assets/BK/PureNature_Volcano/Textures/Surfaces/_RockDetail1_n.png
+  artifactKey: Guid(f93da0029ecd4193884a78b3007e3a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Textures/Surfaces/_RockDetail1_n.png using Guid(f93da0029ecd4193884a78b3007e3a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '388c72684d1e88846a78bfa667149a54') in 0.008779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Plants/Textures/Branchs_a.png
+  artifactKey: Guid(7143eacc6904426a8fe78cf2cf6bbc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Plants/Textures/Branchs_a.png using Guid(7143eacc6904426a8fe78cf2cf6bbc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1f0e03e11267f1ef907ec35cd5862883') in 0.006517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree3/Burntree3_Impostor_a.tga
+  artifactKey: Guid(074a4e6a16bf4798bbe072e901d61c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree3/Burntree3_Impostor_a.tga using Guid(074a4e6a16bf4798bbe072e901d61c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'dffbd84192ea4202e7861a2f0d15b3e0') in 0.008927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Plants/Textures/Deathbells_a.png
+  artifactKey: Guid(ac8ccdc3014e4148a5d73722084981a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Plants/Textures/Deathbells_a.png using Guid(ac8ccdc3014e4148a5d73722084981a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3d8c9d9cde401ea93b49bff50152898c') in 0.005184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree5/Burntree5_Impostor_mask.tga
+  artifactKey: Guid(8ae4deb1f72a497f9250077c40bb2374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree5/Burntree5_Impostor_mask.tga using Guid(8ae4deb1f72a497f9250077c40bb2374) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '74037e46e98c52f847ba600af0e71d8b') in 0.007130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/BigBoulder/Textures/BigBoulderSharp_Cut_0_mask.png
+  artifactKey: Guid(ce416c760e174252a158b5d5103f6f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/BigBoulder/Textures/BigBoulderSharp_Cut_0_mask.png using Guid(ce416c760e174252a158b5d5103f6f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '39ec05919e3663b4f3be7b56ae20c63e') in 0.015699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree1/Burntree1_Impostor_a.tga
+  artifactKey: Guid(248b4008ec7d43258921f09a92c25e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree1/Burntree1_Impostor_a.tga using Guid(248b4008ec7d43258921f09a92c25e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1af0d77019ee802450202a3c1cd50282') in 0.007297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Plants/Textures/Grass_a.png
+  artifactKey: Guid(7f067f5713ad45bf8a5c612512ad09b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Plants/Textures/Grass_a.png using Guid(7f067f5713ad45bf8a5c612512ad09b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2ba67c2f1f25f4d1fddb5da42912a7e9') in 0.006280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Trees/Burntree/BurntreeTrunk_n.tga
+  artifactKey: Guid(a5eeee7f14a24f66b758c0d2b5a5c498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Trees/Burntree/BurntreeTrunk_n.tga using Guid(a5eeee7f14a24f66b758c0d2b5a5c498) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '20c090cf59334660a4e8c718e019fbe0') in 0.008371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree8/Burntree8_Impostor_mask.tga
+  artifactKey: Guid(97316540979344f0a4b781940f7b1ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree8/Burntree8_Impostor_mask.tga using Guid(97316540979344f0a4b781940f7b1ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5610968ea9681d76cb093730c90ed246') in 0.009707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BK/PureNature_Volcano/Textures/Surfaces/Mud_a.png
+  artifactKey: Guid(6fcf97e6bbbe4c5280cd5334152c7785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Textures/Surfaces/Mud_a.png using Guid(6fcf97e6bbbe4c5280cd5334152c7785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8f15c9a1033e2cb2fdcbe3199177e08c') in 0.009567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree6/Burntree6_Impostor_n.tga
+  artifactKey: Guid(0411710a1fb644dc96e1806fc2a7a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree6/Burntree6_Impostor_n.tga using Guid(0411710a1fb644dc96e1806fc2a7a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5f318896f2b612d3da399618cca0ac2f') in 0.007999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/BigBoulder/Textures/BigBoulderSharp_Cut_3_a.png
+  artifactKey: Guid(89f5832690c84fd8a883c3c21786de6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/BigBoulder/Textures/BigBoulderSharp_Cut_3_a.png using Guid(89f5832690c84fd8a883c3c21786de6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '20715224ff29b31f20286adf4fde9e3f') in 0.011827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree1/Burntree1_Impostor_n.tga
+  artifactKey: Guid(5267071ef51247919567d6c3fbf69462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree1/Burntree1_Impostor_n.tga using Guid(5267071ef51247919567d6c3fbf69462) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0c2b40dfa1838d30b4d7103a99882adb') in 0.008128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree2/Burntree2_Impostor_n.tga
+  artifactKey: Guid(892effe4e23546948b5c88bf71b0e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree2/Burntree2_Impostor_n.tga using Guid(892effe4e23546948b5c88bf71b0e94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '513f1e5c14cbf8881369df3fa16f5a8e') in 0.007772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree8/Burntree8_Impostor_n.tga
+  artifactKey: Guid(f6f34553bdae4bbe810e940c6102e5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Trees/Burntree/Burntree8/Burntree8_Impostor_n.tga using Guid(f6f34553bdae4bbe810e940c6102e5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1c198c2b82429439850a8428322d197f') in 0.007409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.172708 seconds.
+  path: Assets/BK/PureNature_Volcano/Textures/Surfaces/Mud_rubble_mask.png
+  artifactKey: Guid(969e4edf60d24c90a854e301cb21f6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Textures/Surfaces/Mud_rubble_mask.png using Guid(969e4edf60d24c90a854e301cb21f6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b87153cd4711860b71b6d6c34295e09c') in 0.010027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/PeakSharp/Textures/PeakSharp_1_a.png
+  artifactKey: Guid(2b0cf1da9c1045ecb81fbfd47cf092be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/PeakSharp/Textures/PeakSharp_1_a.png using Guid(2b0cf1da9c1045ecb81fbfd47cf092be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7a18aeb650fa3d3b9fa65a60ed96bb5d') in 0.019314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/PeakSharp/Textures/PeakSharp_2_mask.png
+  artifactKey: Guid(d22968ddb58245fd952ab323838087ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/PeakSharp/Textures/PeakSharp_2_mask.png using Guid(d22968ddb58245fd952ab323838087ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1b1d11edb69cc9e9dc1477dad1176212') in 0.032438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/PeakSharp/Textures/PeakSharp_0_a.png
+  artifactKey: Guid(2f4229e764d440179ca76c11fe6c0915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/PeakSharp/Textures/PeakSharp_0_a.png using Guid(2f4229e764d440179ca76c11fe6c0915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a41bebca843a7e8d8cd55f5df1e3020d') in 0.018149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.611134 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/PeakSharp_Cut/Textures/PeakSharp_Cut_0_mask.png
+  artifactKey: Guid(696fbd1bfc264c299cce15222ad58fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/PeakSharp_Cut/Textures/PeakSharp_Cut_0_mask.png using Guid(696fbd1bfc264c299cce15222ad58fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1a3f98a0df3b662897f44a7fb9c2f65c') in 0.013324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/PeakSharp_Cut/Textures/PeakSharp_Cut_1_mask.png
+  artifactKey: Guid(0e2662991e59488989970ef4f74e175b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/PeakSharp_Cut/Textures/PeakSharp_Cut_1_mask.png using Guid(0e2662991e59488989970ef4f74e175b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e4363656c637bb100ba3b155e8be456f') in 0.009689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/PeakSharp_Cut/Textures/PeakSharp_Cut_4_a.png
+  artifactKey: Guid(d8c41c0f3a004d9291c0c722a11e47fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/PeakSharp_Cut/Textures/PeakSharp_Cut_4_a.png using Guid(d8c41c0f3a004d9291c0c722a11e47fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c3740d4c648353a305b2f54340bf3ce5') in 0.007488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Rock/Textures/Rock_1_n.png
+  artifactKey: Guid(2a75eda657314e2c8f1fc5b5ad8e099f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Rock/Textures/Rock_1_n.png using Guid(2a75eda657314e2c8f1fc5b5ad8e099f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0e80654de1e687144e63670a22663578') in 0.029491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Rock/Textures/Rock_4_n.png
+  artifactKey: Guid(573f0e1df6d949d095d562c923c6125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Rock/Textures/Rock_4_n.png using Guid(573f0e1df6d949d095d562c923c6125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fd766f73300109e3c19214606c4284d7') in 0.029747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/PeakSharpThin/Textures/PeakSharpThin_3_a.png
+  artifactKey: Guid(374a2ef2aa4e4a44ae67b5fc9faea7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/PeakSharpThin/Textures/PeakSharpThin_3_a.png using Guid(374a2ef2aa4e4a44ae67b5fc9faea7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cd09b1f20733d09a8c67f2f0a40607c0') in 0.012008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/PeakSharpThin/Textures/PeakSharpThin_2_n.png
+  artifactKey: Guid(9e7b97f804914dcb99cbb328fc5e5e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/PeakSharpThin/Textures/PeakSharpThin_2_n.png using Guid(9e7b97f804914dcb99cbb328fc5e5e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '907bf72d427c5ac3c101e0e6b4ef1c2a') in 0.025677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/PeakSharpThin/Textures/PeakSharpThin_4_mask.png
+  artifactKey: Guid(d9caa79330a743a2a3cffc6f99ea3b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/PeakSharpThin/Textures/PeakSharpThin_4_mask.png using Guid(d9caa79330a743a2a3cffc6f99ea3b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1076d9a6760a186d7405942de6f12bf5') in 0.020987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Rock/Textures/Rock_4_mask.png
+  artifactKey: Guid(f02014c7fac4407cbff9579a1df398f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Rock/Textures/Rock_4_mask.png using Guid(f02014c7fac4407cbff9579a1df398f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '25cf70ab5978a227080b189da19d8f3c') in 0.022491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/Rock/Textures/Rock_4_a.png
+  artifactKey: Guid(4accdfdcea624d7a88b0fab040cada23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/Rock/Textures/Rock_4_a.png using Guid(4accdfdcea624d7a88b0fab040cada23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '76b04cff8d7aede2a712a5ead7e03891') in 0.011888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/PeakSharpThin/Textures/PeakSharpThin_1_a.png
+  artifactKey: Guid(3c793df8e2974831a06d2fc088a047e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/PeakSharpThin/Textures/PeakSharpThin_1_a.png using Guid(3c793df8e2974831a06d2fc088a047e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '43b3eb83439bc16fa0307d85666dc10c') in 0.016478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BK/PureNature_Volcano/Models/PeakSharpThin/Textures/PeakSharpThin_3_n.png
+  artifactKey: Guid(8fef72d8319943f9b4700285d611dcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK/PureNature_Volcano/Models/PeakSharpThin/Textures/PeakSharpThin_3_n.png using Guid(8fef72d8319943f9b4700285d611dcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2873df19a2d267d2ee0b9a5b148330c2') in 0.025966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.678792 seconds.
+  path: Assets/Nebula Pack/Skybox Blue Nebula/images/BlueNebula2048_bottom.tif
+  artifactKey: Guid(d67b49012e54a3c43ba339abbe8c145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula Pack/Skybox Blue Nebula/images/BlueNebula2048_bottom.tif using Guid(d67b49012e54a3c43ba339abbe8c145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '29df8348d852906d63159520503478f2') in 0.011013 seconds
+Number of updated asset objects reloaded before import = 7
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
+  artifactKey: Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif using Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a4bf02920693b93214d891c5d7e910a7') in 0.006597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif using Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cd130ba522a43c64f8a06c18167840c3') in 0.006358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Nebula Pack/Skybox Green Nebula/Textures/Green Nebula Front TEX.png
+  artifactKey: Guid(917cf3676d907a34a95dd957a6cdd0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula Pack/Skybox Green Nebula/Textures/Green Nebula Front TEX.png using Guid(917cf3676d907a34a95dd957a6cdd0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '513578a209d018987f6065509029aa40') in 0.008786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Nebula Pack/Skybox Green Nebula/Textures/Green Nebula Bottom TEX.png
+  artifactKey: Guid(92ba50cc9d5db1a4d8b8b39b1e1b86bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula Pack/Skybox Green Nebula/Textures/Green Nebula Bottom TEX.png using Guid(92ba50cc9d5db1a4d8b8b39b1e1b86bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a6269a559853575688e812eec86c8c52') in 0.007678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.410 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.079 seconds
+Domain Reload Profiling: 1488ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1079ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (331ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass Stencil)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass Stencil)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit (Stencil)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit (Stencil)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3915 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (2.4 MB). Loaded Objects now: 4872.
+Memory consumption went from 193.3 MB to 190.9 MB.
+Total: 2.661400 ms (FindLiveObjects: 0.270900 ms CreateObjectMapping: 0.147400 ms MarkObjects: 1.739900 ms  DeleteObjects: 0.502200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: b83070558e381d5558a688e0cabea217 -> ff4c25339547ed4d5185c8e2783fc10b
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 964634cdaa733e3c89cd8eab747fde13 -> a0f2334ad7a6de5eaeb5a6e70444d008
+========================================================================
+Received Import Request.
+  Time since last request: 5.880331 seconds.
+  path: Assets/mihayou/Star/Tex/CubeMap2Remp.png
+  artifactKey: Guid(7b543c27eabb66848a262c2f6bee0db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/Star/Tex/CubeMap2Remp.png using Guid(7b543c27eabb66848a262c2f6bee0db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '88bd8c30c8ee609b06dbcf2d27f6523d') in 0.054154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Nebula Pack/Skybox Dark Nebula/Textures/Dark Nebula Top TEX.png
+  artifactKey: Guid(ddce47ee12eddad498400ca5b1730391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula Pack/Skybox Dark Nebula/Textures/Dark Nebula Top TEX.png using Guid(ddce47ee12eddad498400ca5b1730391) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6f09727e3886d3a1d5b1d45710061ee6') in 0.008124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CircularToggle_OFF_Dark.png
+  artifactKey: Guid(1aaca50d084b0bb43854f075ce2f302b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CircularToggle_OFF_Dark.png using Guid(1aaca50d084b0bb43854f075ce2f302b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f4e903695cd54b1a4fc542c99c0ada42') in 0.006140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Grid128.png
+  artifactKey: Guid(881c304491028ea48b5027ac6c62cf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Grid128.png using Guid(881c304491028ea48b5027ac6c62cf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cf4dbd680863a7743b270c5b330214d6') in 0.007178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/GPUInstancingIconON.png
+  artifactKey: Guid(4b0c2926cc71c5846ae2a29652d54fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/GPUInstancingIconON.png using Guid(4b0c2926cc71c5846ae2a29652d54fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'dc714985d222710c483f0a8a85246d9c') in 0.005498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.301924 seconds.
+  path: Assets/mihayou/Star/Tex/Layer_Stars_02.png
+  artifactKey: Guid(71a69af68b2cf4842914ce4d1af182fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/Star/Tex/Layer_Stars_02.png using Guid(71a69af68b2cf4842914ce4d1af182fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fb413ad629b37daafcc3992893fb16e3') in 0.175273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/mihayou/Star/Tex/T_BakedNebulae_10.PNG
+  artifactKey: Guid(7ea765d3c1629d141b7e3c5183845ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/Star/Tex/T_BakedNebulae_10.PNG using Guid(7ea765d3c1629d141b7e3c5183845ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4d0b5c6c4dd0b59fd28e8807dfaa26f4') in 0.029282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/mihayou/Star/Tex/S.PNG
+  artifactKey: Guid(2c59376d4a82351469026066de08d2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/Star/Tex/S.PNG using Guid(2c59376d4a82351469026066de08d2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b6d1bbfc2dae3b82a361609716137034') in 0.021530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/mihayou/Star/Tex/T_BakedNebulae_26.PNG
+  artifactKey: Guid(aa12a6cfaac1c6246bdd25664a5b73e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/Star/Tex/T_BakedNebulae_26.PNG using Guid(aa12a6cfaac1c6246bdd25664a5b73e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9c80c35e0ebedc5d34f0dde3b6562d30') in 0.022216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/mihayou/Star/Tex/Layer_Stars_05.png
+  artifactKey: Guid(3fabe8d00b8a7544e9a71a9e011582c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/Star/Tex/Layer_Stars_05.png using Guid(3fabe8d00b8a7544e9a71a9e011582c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '669d70360a833ddda5382f741a703ec6') in 0.027573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/mihayou/Star/Tex/T_BakedNebulae_07.PNG
+  artifactKey: Guid(f46bb6a7ef35d6e4788207dfe6e402e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/Star/Tex/T_BakedNebulae_07.PNG using Guid(f46bb6a7ef35d6e4788207dfe6e402e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '575772e40b4e58e943027695e7d80e06') in 0.023474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/mihayou/Star/Tex/T_BakedNebulae_06.PNG
+  artifactKey: Guid(73598c2a91ad47245816f01a47319911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/Star/Tex/T_BakedNebulae_06.PNG using Guid(73598c2a91ad47245816f01a47319911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0abbe7e7a0d91c62c3005a33d2e59d9a') in 0.023058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/mihayou/FX/Tex/Space_Distortion_tunnel_00.png
+  artifactKey: Guid(0367258e2ad152f409ca527cc67183f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/FX/Tex/Space_Distortion_tunnel_00.png using Guid(0367258e2ad152f409ca527cc67183f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3c285a0d746d575702d06a12026795d0') in 0.013277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/mihayou/Star/Moon/Moon_4K_ALB.jpg
+  artifactKey: Guid(6d92d07d05deac94ba323588bfeb1e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/Star/Moon/Moon_4K_ALB.jpg using Guid(6d92d07d05deac94ba323588bfeb1e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cb580da1e623442dc8b89ce80b3dbf86') in 0.014759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/mihayou/Materials/Tex/TigerIce_Ice01_N.png
+  artifactKey: Guid(f6ed7b7d4209e7146b399ff6cc40f01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mihayou/Materials/Tex/TigerIce_Ice01_N.png using Guid(f6ed7b7d4209e7146b399ff6cc40f01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e9740d087fb83306f1434e0c37fb33ea') in 0.007096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2

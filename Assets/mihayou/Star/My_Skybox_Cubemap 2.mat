@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: My_Skybox_Cubemap 2
+  m_Shader: {fileID: 4800000, guid: 61ccbba844a94354a9fc567e57d85761, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CloudCubemap:
+        m_Texture: {fileID: 8900000, guid: 49b35626423e0e44ba03c2aa12a32166, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudGradient:
+        m_Texture: {fileID: 2800000, guid: 7b543c27eabb66848a262c2f6bee0db4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: e622bbd796f8f5c49a296cffe16b1e2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarGradient:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CloudExposure: 1
+    - _CloudRotation: 21
+    - _CloudRotationSpeed: 0.5
+    - _Exposure: 1
+    - _GradientColorIntensity: 1
+    - _Noise1RotateSpeed: -0.17
+    - _Noise1Scale: 10000
+    - _Noise2RotateSpeed: 1.66
+    - _Noise2Scale: 10000
+    - _NoiseMaskRotateSpeed: 100
+    - _NoiseMaskScale: 1
+    - _PosMax: 1
+    - _PosMin: 0
+    - _Rotation: 111
+    - _RotationSpeed: 1
+    - _RotationX: 30
+    - _StarIntensity: 0.59
+    - _StencilComp: 3
+    - _StencilFail: 0
+    - _StencilPass: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilWriteMask: 255
+    - _StencilZFail: 0
+    m_Colors:
+    - _BGTint1: {r: 0, g: 0, b: 0, a: 0}
+    - _BGTint2: {r: 0, g: 0, b: 0, a: 0}
+    - _CloudTint: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 1}
+    - _Noise1PowScale: {r: 99.94, g: 50, b: 0, a: 0}
+    - _Noise2PowScale: {r: 150, g: 1000, b: 0, a: 0}
+    - _NoiseMaskPowScale: {r: 100, g: 100, b: 0, a: 0}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

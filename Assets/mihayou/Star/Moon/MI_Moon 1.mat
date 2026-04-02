@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MI_Moon 1
+  m_Shader: {fileID: 4800000, guid: a186b4cffd551f34c95630e3548a1120, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: d61185f48fa001b45a14682e5be6b9d7, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 164294e5a3476b14abd1da120646beef, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: c2b65641b183df6429a4f42b11e61f14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Contrast: 1.25
+    - _DistortIntensity: 0.16
+    - _Intensity: 1.08
+    - _MaskContrast: 1.4
+    - _MaskIntensity: 0.6
+    - _StencilComp: 3
+    - _StencilFail: 0
+    - _StencilPass: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilWriteMask: 255
+    - _StencilZFail: 0
+    m_Colors:
+    - _Color0: {r: 0.6901961, g: 0.35077325, b: 0, a: 0}
+    - _DistortSpeed: {r: 0.05, g: -0.05, b: 0, a: 0}
+    - _MaskColor: {r: 31.974705, g: 9.344653, b: 0, a: 1}
+    - _OutlineColor: {r: 10.680627, g: 0, b: 0, a: 0}
+    - _OutlineVec: {r: 0, g: 2.92, b: 10, a: 0}
+    - _Tint: {r: 8, g: 0, b: 0, a: 0}
+    - _Vector0: {r: 0.1, g: 0.1, b: 4, a: 0}
+  m_BuildTextureStacks: []
