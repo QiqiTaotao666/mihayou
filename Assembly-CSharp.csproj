@@ -66,8 +66,10 @@
     <Compile Include="Assets\mihayou\FX\Script\MVFXTK_Rotator.cs" />
     <Compile Include="Assets\mihayou\Star\GradientToTexture.cs" />
     <Compile Include="Assets\mihayou\Star\Water\Planar Reflection.cs" />
+    <Compile Include="Assets\mihayou\shikongfazheng\Portals Properties.cs" />
     <Compile Include="Assets\mihayou\FX\Script\MVFXTK_TransformToMaterial.cs" />
     <Compile Include="Assets\mihayou\FX\Script\SphereWaveManager.cs" />
+    <Compile Include="Assets\mihayou\shikongfazheng\Portals FX2_Shader Floa Curve.cs" />
     <Compile Include="Assets\Mirza\Portal VFX\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\Mirza\Portal VFX\Scripts\SetFPSOnStart.cs" />
     <Compile Include="Assets\mihayou\FX\Script\SphereWave.cs" />
@@ -78,6 +80,7 @@
     <Compile Include="Assets\mihayou\Scripts\Rendering\AdditionalDirLightTag.cs" />
     <Compile Include="Assets\mihayou\Scripts\DualSunController.cs" />
     <Compile Include="Assets\mihayou\Scripts\Rendering\AdditionalDirLightShadowPass.cs" />
+    <Compile Include="Assets\mihayou\shikongfazheng\Portals FX2_Axis Rotate By Time.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\External\psrdnoise.hlsl" />
@@ -119,6 +122,7 @@
     <None Include="Assets\mihayou\Materials\Shasder\M_Distortion.shader" />
     <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Glow.shader" />
     <None Include="Assets\mihayou\Materials\Shasder\M_Lava.shader" />
+    <None Include="Assets\mihayou\shikongfazheng\M_MaskBlended.shader" />
     <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Intersection.shader" />
     <None Include="Assets\mihayou\Shaders\M_ThrilLayerPBR.shader" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\External\Common\glsl-translations.hlsl" />
