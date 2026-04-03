@@ -36,7 +36,7 @@ Material:
     - _CoronaFluidInfluence: 3.74
     - _CoronaFluidTile: 3.97
     - _CoronaSpeed: 0.47
-    - _CoronaTileX: 15
+    - _CoronaTileX: 8
     - _CoronaTileY: 0.55
     - _DischargePanSpeed: 4.98
     - _DischargeTileX: 4.63
