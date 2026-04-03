@@ -66,13 +66,11 @@
     <Compile Include="Assets\mihayou\FX\Script\MVFXTK_Rotator.cs" />
     <Compile Include="Assets\mihayou\Star\GradientToTexture.cs" />
     <Compile Include="Assets\mihayou\Star\Water\Planar Reflection.cs" />
-    <Compile Include="Assets\Nebula Pack\Skybox Purple Nebula\scripts\MouseLook.cs" />
     <Compile Include="Assets\mihayou\FX\Script\MVFXTK_TransformToMaterial.cs" />
     <Compile Include="Assets\mihayou\FX\Script\SphereWaveManager.cs" />
     <Compile Include="Assets\Mirza\Portal VFX\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\Mirza\Portal VFX\Scripts\SetFPSOnStart.cs" />
     <Compile Include="Assets\mihayou\FX\Script\SphereWave.cs" />
-    <Compile Include="Assets\Nebula Pack\Skybox Dark Nebula\Scripts\SmoothCameraOrbit.cs" />
     <Compile Include="Assets\mihayou\FX\Script\MVFXTK_Comment.cs" />
     <Compile Include="Assets\mihayou\Scripts\Rendering\AdditionalDirLightShadowFeature.cs" />
     <Compile Include="Assets\mihayou\FX\Script\MVFXTK_TransformSine.cs" />
@@ -98,8 +96,6 @@
     <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Noise.shader" />
     <None Include="Assets\mihayou\FX\StargateCG.hlsl" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Lighting.cginc" />
-    <None Include="Assets\Nebula Pack\Skybox Dark Nebula\Dark Nebula - Readme.txt" />
-    <None Include="Assets\Nebula Pack\Nebula Pack - Readme.txt" />
     <None Include="Assets\mihayou\FX\M_Spacial.shader" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Blur.cginc" />
     <None Include="Assets\Mirza\Portal VFX\Shaders\Portals.cginc" />
@@ -128,10 +124,8 @@
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\External\Common\glsl-translations.hlsl" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Colour.cginc" />
     <None Include="Assets\mihayou\Materials\Shasder\M_Crcak.shader" />
-    <None Include="Assets\Nebula Pack\Skybox Green Nebula\Green Nebula - Readme.txt" />
     <None Include="Assets\mihayou\Lava\M_Lava.shader" />
     <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Ring.shader" />
-    <None Include="Assets\Nebula Pack\Skybox Simple Nebula\Simple Nebula - Readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
