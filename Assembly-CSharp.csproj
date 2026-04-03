@@ -73,8 +73,6 @@
     <Compile Include="Assets\Mirza\Portal VFX\Scripts\SetFPSOnStart.cs" />
     <Compile Include="Assets\mihayou\FX\Script\SphereWave.cs" />
     <Compile Include="Assets\Nebula Pack\Skybox Dark Nebula\Scripts\SmoothCameraOrbit.cs" />
-    <Compile Include="Assets\SineVFX\GalaxyMaterials\Resources\Scripts\SineCameraControllerGalaxyMaterials.cs" />
-    <Compile Include="Assets\SineVFX\GalaxyMaterials\Resources\Scripts\SineUIControllerGalaxyMaterials.cs" />
     <Compile Include="Assets\mihayou\FX\Script\MVFXTK_Comment.cs" />
     <Compile Include="Assets\mihayou\Scripts\Rendering\AdditionalDirLightShadowFeature.cs" />
     <Compile Include="Assets\mihayou\FX\Script\MVFXTK_TransformSine.cs" />
@@ -97,7 +95,6 @@
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\External\Common\stegu-math.hlsl" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\Particles\Unlit Circle SDF Particle.shader" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Quantize.cginc" />
-    <None Include="Assets\SineVFX\GalaxyMaterials\_Documentation\02.MaterialParameters.txt" />
     <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Noise.shader" />
     <None Include="Assets\mihayou\FX\StargateCG.hlsl" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Lighting.cginc" />
@@ -105,7 +102,6 @@
     <None Include="Assets\Nebula Pack\Nebula Pack - Readme.txt" />
     <None Include="Assets\mihayou\FX\M_Spacial.shader" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Blur.cginc" />
-    <None Include="Assets\SineVFX\GalaxyMaterials\Resources\Shaders\GalaxyMaterial.shader" />
     <None Include="Assets\Mirza\Portal VFX\Shaders\Portals.cginc" />
     <None Include="Assets\Mirza\Portal VFX\README.txt" />
     <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Transparent.shader" />
@@ -121,15 +117,11 @@
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Transform.cginc" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\SDF.cginc" />
     <None Include="Assets\mihayou\Shaders\TerrainLit_Stencil.shader" />
-    <None Include="Assets\SineVFX\GalaxyMaterials\_Packages\!!!_ReadBeforeImport_!!!.txt" />
-    <None Include="Assets\SineVFX\GalaxyMaterials\_Documentation\!!!_BetterDocumentationOnline_!!!.txt" />
     <None Include="Assets\mihayou\FX\StargateCG.cginc" />
-    <None Include="Assets\SineVFX\GalaxyMaterials\_Documentation\01.QuickStart.txt" />
     <None Include="Assets\Mirza\Portal VFX\Shaders\Light Cylinder.shader" />
     <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Intersection Grid.shader" />
     <None Include="Assets\mihayou\Materials\Shasder\M_Distortion.shader" />
     <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Glow.shader" />
-    <None Include="Assets\SineVFX\GalaxyMaterials\Resources\Environment\EnvShaders\SkyboxProceduralDesaturatedGM.shader" />
     <None Include="Assets\mihayou\Materials\Shasder\M_Lava.shader" />
     <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Intersection.shader" />
     <None Include="Assets\mihayou\Shaders\M_ThrilLayerPBR.shader" />
