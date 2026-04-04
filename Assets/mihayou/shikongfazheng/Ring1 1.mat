@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ring1
+  m_Name: Ring1 1
   m_Shader: {fileID: 4800000, guid: 0dcef93f06e4f704e9312ed0b62f21af, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -26,8 +26,8 @@ Material:
     m_TexEnvs:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 157bba8bbe8da4d40b8e2dde00cd40a4, type: 3}
-        m_Scale: {x: 50, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Scale: {x: 48.66, y: 1}
+        m_Offset: {x: 0, y: 0.25}
     - _MaskTex:
         m_Texture: {fileID: 2800000, guid: 7d5f6337ffe5dfa4c99c39298646caae, type: 3}
         m_Scale: {x: 5, y: 5}

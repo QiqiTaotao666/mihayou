@@ -14,6 +14,13 @@ namespace UnityEditor
         private int stencilRef = 1;
         private CompareFunction stencilComp = CompareFunction.Always;
 
+        // Render Queue 配置
+        private bool useCustomRenderQueue = false;
+        private int renderQueue = 3000; // 默认 Transparent
+
+        // 是否包含子物体
+        private bool includeChildren = true;
+
         [MenuItem("Tools/Setup StencilWorld + AdditionalShadow")]
         private static void ShowWindow()
         {
@@ -52,6 +59,12 @@ namespace UnityEditor
                 return;
             }
 
+            // ── 包含子物体开关 ──
+            includeChildren = EditorGUILayout.Toggle("包含所有子物体", includeChildren);
+
+            // 收集所有要处理的 GameObject
+            List<GameObject> allObjects = CollectGameObjects(selected, includeChildren);
+
             // ── 统计 ──
             int countCorrectLayer = 0;
             int countWrongLayer = 0;
@@ -59,8 +72,10 @@ namespace UnityEditor
             int countShadowOff = 0;
             int countNoRenderer = 0;
             int countNoProperty = 0;
+            int countQueueMatch = 0;
+            int countQueueMismatch = 0;
 
-            foreach (var go in selected)
+            foreach (var go in allObjects)
             {
                 if (go.layer == stencilLayer) countCorrectLayer++;
                 else countWrongLayer++;
@@ -71,15 +86,24 @@ namespace UnityEditor
                 foreach (Material mat in r.sharedMaterials)
                 {
                     if (mat == null) continue;
-                    if (!mat.HasProperty("_USEAdditionalShadow")) { countNoProperty++; continue; }
-                    if (mat.GetFloat("_USEAdditionalShadow") >= 0.5f) countShadowOn++;
-                    else countShadowOff++;
+                    if (!mat.HasProperty("_USEAdditionalShadow")) { countNoProperty++; }
+                    else
+                    {
+                        if (mat.GetFloat("_USEAdditionalShadow") >= 0.5f) countShadowOn++;
+                        else countShadowOff++;
+                    }
+                    // Render Queue 统计
+                    if (useCustomRenderQueue)
+                    {
+                        if (mat.renderQueue == renderQueue) countQueueMatch++;
+                        else countQueueMismatch++;
+                    }
                 }
             }
 
             // ── 总览 ──
             EditorGUILayout.LabelField("总览", EditorStyles.boldLabel);
-            EditorGUILayout.LabelField($"选中物体数：{selected.Length}");
+            EditorGUILayout.LabelField($"选中物体数：{selected.Length}  |  处理总数(含子物体)：{allObjects.Count}");
 
             using (new EditorGUILayout.HorizontalScope())
             {
@@ -90,6 +114,14 @@ namespace UnityEditor
             {
                 StatusLabel($"Shadow 已开：{countShadowOn}", countShadowOn > 0, true);
                 StatusLabel($"Shadow 未开：{countShadowOff}", countShadowOff > 0, false);
+            }
+            if (useCustomRenderQueue)
+            {
+                using (new EditorGUILayout.HorizontalScope())
+                {
+                    StatusLabel($"Queue 匹配：{countQueueMatch}", countQueueMatch > 0, true);
+                    StatusLabel($"Queue 待改：{countQueueMismatch}", countQueueMismatch > 0, false);
+                }
             }
             if (countNoRenderer > 0)
                 EditorGUILayout.LabelField($"  无 Renderer：{countNoRenderer}", EditorStyles.miniLabel);
@@ -108,11 +140,22 @@ namespace UnityEditor
 
             EditorGUILayout.Space(6);
 
+            // ── Render Queue 配置 ──
+            EditorGUILayout.LabelField("Render Queue 配置", EditorStyles.boldLabel);
+            useCustomRenderQueue = EditorGUILayout.Toggle("启用自定义 Queue", useCustomRenderQueue);
+            if (useCustomRenderQueue)
+            {
+                renderQueue = EditorGUILayout.IntField("Render Queue", renderQueue);
+                EditorGUILayout.HelpBox("常用值: Background=1000, Geometry=2000, AlphaTest=2450, Transparent=3000, Overlay=4000", MessageType.None);
+            }
+
+            EditorGUILayout.Space(6);
+
             // ── 物体列表 ──
             EditorGUILayout.LabelField("物体详情", EditorStyles.boldLabel);
             scrollPos = EditorGUILayout.BeginScrollView(scrollPos, GUILayout.ExpandHeight(true));
 
-            foreach (var go in selected)
+            foreach (var go in allObjects)
             {
                 bool layerOk = go.layer == stencilLayer;
                 Renderer r = go.GetComponent<Renderer>();
@@ -154,6 +197,9 @@ namespace UnityEditor
                                     : "?";
                                 DrawTag($"Ref:{refVal} {compName}", refVal > 0);
                             }
+                            // 显示 Render Queue
+                            bool queueOk = useCustomRenderQueue && mat.renderQueue == renderQueue;
+                            DrawTag($"Q:{mat.renderQueue}", !useCustomRenderQueue || queueOk);
                         }
                     }
                 }
@@ -174,18 +220,22 @@ namespace UnityEditor
             {
                 GUI.backgroundColor = new Color(0.3f, 0.8f, 0.4f);
                 if (GUILayout.Button("一键设置全部", GUILayout.Height(32)))
-                    ApplyAll(selected);
+                    ApplyAll(allObjects);
 
                 GUI.backgroundColor = new Color(0.9f, 0.5f, 0.3f);
                 if (GUILayout.Button("仅改 Layer", GUILayout.Height(32)))
-                    ApplyLayerOnly(selected);
+                    ApplyLayerOnly(allObjects);
 
                 if (GUILayout.Button("仅开 Shadow", GUILayout.Height(32)))
-                    ApplyShadowOnly(selected);
+                    ApplyShadowOnly(allObjects);
 
                 GUI.backgroundColor = new Color(0.4f, 0.6f, 0.9f);
                 if (GUILayout.Button("仅设 Stencil", GUILayout.Height(32)))
-                    ApplyStencilOnly(selected);
+                    ApplyStencilOnly(allObjects);
+
+                GUI.backgroundColor = new Color(0.8f, 0.4f, 0.8f);
+                if (GUILayout.Button("仅设 Queue", GUILayout.Height(32)))
+                    ApplyRenderQueueOnly(allObjects);
 
                 GUI.backgroundColor = Color.white;
             }
@@ -195,37 +245,45 @@ namespace UnityEditor
 
         // ── Apply helpers ──
 
-        private void ApplyAll(GameObject[] objects)
+        private void ApplyAll(List<GameObject> objects)
         {
-            int mObj = 0, mMat = 0, mStencil = 0;
+            int mObj = 0, mMat = 0, mStencil = 0, mQueue = 0;
             foreach (var go in objects)
             {
                 SetLayer(go); mObj++;
                 mMat += EnableShadow(go);
                 mStencil += SetStencil(go);
+                if (useCustomRenderQueue) mQueue += SetRenderQueue(go);
             }
-            Debug.Log($"完成：{mObj} 个物体 Layer → StencilWorld，{mMat} 个材质启用 USEAdditionalShadow，{mStencil} 个材质设置 Stencil。");
+            Debug.Log($"完成：{mObj} 个物体 Layer → StencilWorld，{mMat} 个材质启用 USEAdditionalShadow，{mStencil} 个材质设置 Stencil，{mQueue} 个材质设置 RenderQueue={renderQueue}。");
         }
 
-        private void ApplyLayerOnly(GameObject[] objects)
+        private void ApplyLayerOnly(List<GameObject> objects)
         {
             int mObj = 0;
             foreach (var go in objects) { SetLayer(go); mObj++; }
             Debug.Log($"完成：{mObj} 个物体 Layer → StencilWorld。");
         }
 
-        private void ApplyShadowOnly(GameObject[] objects)
+        private void ApplyShadowOnly(List<GameObject> objects)
         {
             int mMat = 0;
             foreach (var go in objects) mMat += EnableShadow(go);
             Debug.Log($"完成：{mMat} 个材质启用 USEAdditionalShadow。");
         }
 
-        private void ApplyStencilOnly(GameObject[] objects)
+        private void ApplyStencilOnly(List<GameObject> objects)
         {
             int mStencil = 0;
             foreach (var go in objects) mStencil += SetStencil(go);
             Debug.Log($"完成：{mStencil} 个材质设置 Stencil (Ref={stencilRef}, Comp={stencilComp})。");
+        }
+
+        private void ApplyRenderQueueOnly(List<GameObject> objects)
+        {
+            int mQueue = 0;
+            foreach (var go in objects) mQueue += SetRenderQueue(go);
+            Debug.Log($"完成：{mQueue} 个材质设置 RenderQueue={renderQueue}。");
         }
 
         private void SetLayer(GameObject go)
@@ -266,6 +324,45 @@ namespace UnityEditor
                 count++;
             }
             return count;
+        }
+
+        private int SetRenderQueue(GameObject go)
+        {
+            int count = 0;
+            Renderer r = go.GetComponent<Renderer>();
+            if (r == null) return 0;
+            foreach (Material mat in r.sharedMaterials)
+            {
+                if (mat == null) continue;
+                Undo.RecordObject(mat, "Set Render Queue");
+                mat.renderQueue = renderQueue;
+                EditorUtility.SetDirty(mat);
+                count++;
+            }
+            return count;
+        }
+
+        /// <summary>
+        /// 收集所有要处理的 GameObject（可选包含子物体），去重
+        /// </summary>
+        private static List<GameObject> CollectGameObjects(GameObject[] roots, bool includeChildren)
+        {
+            HashSet<GameObject> set = new HashSet<GameObject>();
+            foreach (var root in roots)
+            {
+                if (includeChildren)
+                {
+                    // GetComponentsInChildren 包含自身
+                    Transform[] allTransforms = root.GetComponentsInChildren<Transform>(true);
+                    foreach (var t in allTransforms)
+                        set.Add(t.gameObject);
+                }
+                else
+                {
+                    set.Add(root);
+                }
+            }
+            return new List<GameObject>(set);
         }
 
         // ── UI helpers ──
