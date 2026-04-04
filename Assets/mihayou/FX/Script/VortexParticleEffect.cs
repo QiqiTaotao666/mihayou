@@ -42,6 +42,16 @@ public class VortexParticleEffect : MonoBehaviour
     [Tooltip("粒子结束颜色")]
     public Color endColor = new Color(0.1f, 0.4f, 1f, 0f);
 
+    [Header("=== 渲染模式 ===")]
+    [Tooltip("粒子渲染模式")]
+    public ParticleSystemRenderMode renderMode = ParticleSystemRenderMode.Billboard;
+
+    [Tooltip("Mesh 渲染时使用的网格（renderMode 为 Mesh 时生效）")]
+    public Mesh particleMesh;
+
+    [Tooltip("自定义粒子材质（留空则自动创建默认材质）")]
+    public Material particleMaterial;
+
     [Header("=== 高级 ===")]
     [Tooltip("是否使用噪声扰动")]
     public bool useNoise = true;
@@ -115,20 +125,42 @@ public class VortexParticleEffect : MonoBehaviour
 
         // 渲染器设置
         var renderer = ps.GetComponent<ParticleSystemRenderer>();
-        renderer.renderMode = ParticleSystemRenderMode.Billboard;
+        renderer.renderMode = renderMode;
         renderer.sortMode = ParticleSystemSortMode.YoungestInFront;
 
-        // 尝试加载自定义材质
-        var mat = Resources.Load<Material>("VortexParticleMat");
-        if (mat != null)
+        // Mesh 模式下设置网格
+        if (renderMode == ParticleSystemRenderMode.Mesh)
         {
-            renderer.material = mat;
+            if (particleMesh != null)
+            {
+                renderer.mesh = particleMesh;
+            }
+            else
+            {
+                // 默认使用 Unity 内置的 Quad
+                renderer.mesh = Resources.GetBuiltinResource<Mesh>("Quad.fbx");
+            }
+        }
+
+        // 材质设置
+        if (particleMaterial != null)
+        {
+            renderer.material = particleMaterial;
         }
         else
         {
-            // 使用默认粒子材质
-            renderer.material = new Material(Shader.Find("Particles/Standard Unlit"));
-            renderer.material.SetFloat("_Mode", 1); // Additive
+            // 尝试加载自定义材质
+            var mat = Resources.Load<Material>("VortexParticleMat");
+            if (mat != null)
+            {
+                renderer.material = mat;
+            }
+            else
+            {
+                // 使用默认粒子材质
+                renderer.material = new Material(Shader.Find("Particles/Standard Unlit"));
+                renderer.material.SetFloat("_Mode", 1); // Additive
+            }
         }
 
         // 关闭不需要的模块
