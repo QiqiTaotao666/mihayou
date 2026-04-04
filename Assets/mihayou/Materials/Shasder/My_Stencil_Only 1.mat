@@ -25,6 +25,7 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _CullMode: 2
     - _StencilRef: 1
     m_Colors: []
   m_BuildTextureStacks: []

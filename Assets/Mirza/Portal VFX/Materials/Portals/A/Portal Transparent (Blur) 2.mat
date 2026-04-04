@@ -181,7 +181,7 @@ Material:
     - _Thickness: 0.002
     - _UseTexture: 1
     - _UseTexture1: 0
-    - _WaveCount: 1
+    - _WaveCount: 2
     - _WaveNormalStrength: 0.4
     - _WavePower: 1
     - _WaveVertexOffset: 0

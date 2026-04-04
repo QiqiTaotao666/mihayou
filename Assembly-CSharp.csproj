@@ -93,6 +93,7 @@
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Noise.cginc" />
     <None Include="Assets\mihayou\Star\Moon\M_Moon.shader" />
     <None Include="Assets\mihayou\Materials\Shasder\Lit.shader" />
+    <None Include="Assets\mihayou\FX\M_VortexParticle.shader" />
     <None Include="Assets\mihayou\Hole\M_Hole.shader" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\External\Common\stegu-math.hlsl" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\Particles\Unlit Circle SDF Particle.shader" />

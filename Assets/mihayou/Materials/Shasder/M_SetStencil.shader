@@ -3,6 +3,7 @@ Shader "My/Stencil_Only"
     Properties
     {
         [IntRange] _StencilRef ("Stencil Reference Value", Range(0,255)) = 0
+        [Enum(Off,0, Front,1, Back,2)] _CullMode ("Cull Mode", Float) = 2
     }
     SubShader
     {
@@ -10,7 +11,7 @@ Shader "My/Stencil_Only"
         LOD 100
         Blend Zero One
         ZWrite Off
-        //Cull Back
+        Cull [_CullMode]
 
         Stencil{
             Ref [_StencilRef]
