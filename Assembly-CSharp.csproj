@@ -80,6 +80,7 @@
     <Compile Include="Assets\mihayou\Scripts\Rendering\AdditionalDirLightTag.cs" />
     <Compile Include="Assets\mihayou\Scripts\DualSunController.cs" />
     <Compile Include="Assets\mihayou\Scripts\Rendering\AdditionalDirLightShadowPass.cs" />
+    <Compile Include="Assets\mihayou\FX\Script\VortexParticleEffect.cs" />
     <Compile Include="Assets\mihayou\shikongfazheng\Portals FX2_Axis Rotate By Time.cs" />
   </ItemGroup>
   <ItemGroup>

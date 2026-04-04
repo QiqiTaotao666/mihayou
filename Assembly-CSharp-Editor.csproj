@@ -68,6 +68,7 @@
     <Compile Include="Assets\mihayou\Editor\SetupStencilWorld.cs" />
     <Compile Include="Assets\mihayou\Editor\CustomLitShaderGUI.cs" />
     <Compile Include="Assets\mihayou\Editor\LavaShaderGUI.cs" />
+    <Compile Include="Assets\mihayou\Editor\VortexParticleCreator.cs" />
     <Compile Include="Assets\mihayou\Editor\ThrilLayerPBRShaderGUI.cs" />
   </ItemGroup>
   <ItemGroup>
