@@ -2,7 +2,8 @@ Shader "Custom/M_Hole"
 {
     Properties
     {
-        _Color ("Color", Color) = (1,1,1,1)
+        [HDR] _Color ("Color", Color) = (1,1,1,1)
+        _Opacity ("Opacity", Range(0, 1)) = 1
         _MainTex ("Albedo (RGB)", 2D) = "white" {}
         _FresnelPower ("Fresnel Power", Range(0.1, 20)) = 8
         _FresnelScale ("Fresnel Scale", Range(0, 1)) = 1
@@ -29,6 +30,7 @@ Shader "Custom/M_Hole"
 
             Blend SrcAlpha OneMinusSrcAlpha
             ZWrite Off
+            Cull Back
 
             HLSLPROGRAM
             #pragma vertex vert
@@ -45,6 +47,7 @@ Shader "Custom/M_Hole"
                 float4 _MainTex_ST;
                 float4 _NoiseTex_ST;
                 half4  _Color;
+                half   _Opacity;
                 half   _FresnelPower;
                 half   _FresnelScale;
                 half   _FresnelCutoff;
@@ -84,34 +87,10 @@ Shader "Custom/M_Hole"
 
             half4 frag(Varyings IN) : SV_Target
             {
-                // fresnel 边缘检测
-                half NdotV = saturate(dot(normalize(IN.normalWS), normalize(IN.viewDirWS)));
-                half fresnel = pow(1.0 - NdotV, _FresnelPower) * _FresnelScale;
 
-                // 边缘遮罩
-                half edgeMask = smoothstep(1.0 - _EdgeWidth, 1.0, fresnel);
-
-                // 用对象空间XZ做噪声UV，绕Y轴旋转
-                float swirlAngle = _Time.y * _SwirlSpeed;
-                float cosA = cos(swirlAngle);
-                float sinA = sin(swirlAngle);
-                float2 objXZ = IN.posOS.xz;
-                float2 rotatedXZ = float2(
-                    objXZ.x * cosA - objXZ.y * sinA,
-                    objXZ.x * sinA + objXZ.y * cosA
-                );
-
-                // 采样噪声
-                float2 noiseUV = rotatedXZ * _NoiseTex_ST.xy + _NoiseTex_ST.zw;
-                half noise = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, noiseUV).r;
-
-                // 噪声扰动fresnel边缘
-                fresnel = fresnel + (noise - 0.5) * edgeMask * _SwirlStrength;
-                fresnel = smoothstep(_FresnelCutoff - _FresnelSoftness, _FresnelCutoff + _FresnelSoftness, fresnel);
-
-                // 主贴图
-                half4 c = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, IN.uv);
-                return float4(noise.rrr, 1);
+                half4 c = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, IN.uv) * _Color;
+                c.a *= _Opacity;
+                return c;
             }
             ENDHLSL
         }
