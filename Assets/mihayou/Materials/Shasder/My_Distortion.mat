@@ -35,10 +35,10 @@ Material:
     m_Floats:
     - _Cull: 2
     - _DepthFade: 5
-    - _DistortionStrength: 0.0028
-    - _SpeedX: 0
-    - _SpeedY: 0.5
-    - _StencilComp: 8
+    - _DistortionStrength: 0
+    - _SpeedX: 0.3
+    - _SpeedY: 0.09
+    - _StencilComp: 0
     - _StencilPass: 0
     - _StencilRef: 1
     - _TilingX: 1
@@ -47,7 +47,7 @@ Material:
     - _UseMask: 0
     - _UseTint: 0
     - _WaveCount: 1
-    - _WaveNormalStrength: 0
+    - _WaveNormalStrength: 1.01
     - _WavePower: 1
     - _WaveVertexOffset: 0
     m_Colors:
