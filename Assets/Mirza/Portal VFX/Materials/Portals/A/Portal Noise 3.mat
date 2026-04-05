@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Portal Noise 3
+  m_Shader: {fileID: 4800000, guid: 945837d64df476440ba7ea8977cbc4fc, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _NOISEPOLARCOORDINATES_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 0
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _EnvironmentReflections: 1
+    - _Falloff: 0.9
+    - _Feather: 0.9
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _InnerFeather: 1
+    - _InnerMaskFeather: 1
+    - _InnerMaskPower: 1
+    - _InnerMaskRadius: 0.75
+    - _InnerPower: 1
+    - _InnerRadius: 0.75
+    - _Metallic: 0
+    - _NoiseColourGradientPower: 1.2
+    - _NoiseColourGradientRemapMax: 1
+    - _NoiseColourGradientRemapMin: 0
+    - _NoiseDilation: 0.01
+    - _NoiseOctaves: 2
+    - _NoiseParallaxOffset: 0.4
+    - _NoisePolarCoordinates: 1
+    - _NoisePolarCoordinatesTwist: 360
+    - _NoisePower: 2
+    - _NoiseRemapFromMax: 1
+    - _NoiseRemapFromMin: 0
+    - _NoiseRemapMax: 1
+    - _NoiseRemapMin: 0
+    - _NoiseRemapToMax: 1
+    - _NoiseRemapToMaxAlpha: 1
+    - _NoiseRemapToMin: 0
+    - _NoiseScale: 3
+    - _NoiseSimplePolarCoordinates: 0
+    - _NoiseTwist: 180
+    - _OcclusionStrength: 1
+    - _OuterMaskFeather: 0.9
+    - _OuterMaskPower: 5
+    - _OuterMaskRadius: 0.9
+    - _Parallax: 0.005
+    - _ParallaxOffset: 0.05
+    - _Power: 0.8
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Radius: 0.9
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _Surface: 0
+    - _Thickness: 0.002
+    - _Twist: 4
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BackplateColour: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _NoiseAnimation: {r: -1, g: -0.5, b: 0.2, a: 0}
+    - _NoiseColourA: {r: 0, g: 0.02745098, b: 1, a: 1}
+    - _NoiseColourB: {r: 2, g: 0.28623864, b: 0, a: 1}
+    - _NoiseOffset: {r: 0, g: 0, b: 5, a: 0}
+    - _NoiseTiling: {r: 0.8, g: 0.5, b: 1, a: 0}
+    - _PortalColor: {r: 0, g: 1.4887192, b: 5.3403144, a: 0.1764706}
+    - _PortalColourA: {r: 0, g: 0.02892828, b: 1, a: 1}
+    - _PortalColourB: {r: 2, g: 0.28623864, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Vector0: {r: 1, g: 0.69, b: 1, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &6671035741656418342
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

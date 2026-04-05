@@ -70,6 +70,8 @@
     <Compile Include="Assets\mihayou\FX\Script\MVFXTK_TransformToMaterial.cs" />
     <Compile Include="Assets\mihayou\FX\Script\SphereWaveManager.cs" />
     <Compile Include="Assets\mihayou\shikongfazheng\Portals FX2_Shader Floa Curve.cs" />
+    <Compile Include="Assets\Mirza\Portal VFX\Scripts\FPSDisplay.cs" />
+    <Compile Include="Assets\Mirza\Portal VFX\Scripts\SetFPSOnStart.cs" />
     <Compile Include="Assets\mihayou\FX\Script\SphereWave.cs" />
     <Compile Include="Assets\mihayou\FX\Script\MVFXTK_Comment.cs" />
     <Compile Include="Assets\mihayou\Scripts\Rendering\AdditionalDirLightShadowFeature.cs" />
@@ -82,30 +84,54 @@
     <Compile Include="Assets\mihayou\shikongfazheng\Portals FX2_Axis Rotate By Time.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\External\psrdnoise.hlsl" />
     <None Include="Assets\mihayou\Materials\Shasder\M_SetStencil.shader" />
     <None Include="Assets\mihayou\Shaders\DualSunSkybox.shader" />
+    <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Hex.cginc" />
     <None Include="Assets\mihayou\Shaders\TerrainLitAdd_Stencil.shader" />
     <None Include="Assets\mihayou\Star\M_Skybox.shader" />
     <None Include="Assets\mihayou\Star\LensFlare\M_LensFlare.shader" />
+    <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Noise.cginc" />
     <None Include="Assets\mihayou\Star\Moon\M_Moon.shader" />
     <None Include="Assets\mihayou\Materials\Shasder\Lit.shader" />
     <None Include="Assets\mihayou\FX\M_VortexParticle.shader" />
     <None Include="Assets\mihayou\Hole\M_Hole.shader" />
+    <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\External\Common\stegu-math.hlsl" />
+    <None Include="Assets\Mirza\VFXToolkit\Shaders\Particles\Unlit Circle SDF Particle.shader" />
+    <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Quantize.cginc" />
     <None Include="Assets\mihayou\Star\Moon\M_Sun.shader" />
+    <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Noise.shader" />
     <None Include="Assets\mihayou\FX\StargateCG.hlsl" />
+    <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Lighting.cginc" />
+    <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Blur.cginc" />
+    <None Include="Assets\Mirza\Portal VFX\Shaders\Portals.cginc" />
+    <None Include="Assets\Mirza\Portal VFX\README.txt" />
+    <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Transparent.shader" />
     <None Include="Assets\mihayou\Shaders\AdditionalDirShadow.hlsl" />
     <None Include="Assets\mihayou\Shaders\M_Rock.shader" />
+    <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Intersection Noise.shader" />
+    <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Backplate.shader" />
     <None Include="Assets\mihayou\Star\Water\M_Water.shader" />
+    <None Include="Assets\Mirza\VFXToolkit\Shaders\Particles\Unlit Particle.shader" />
     <None Include="Assets\mihayou\Shaders\TerrainLitBase_Stencil.shader" />
     <None Include="Assets\mihayou\Star\Moon\M_Sun Corna.shader" />
+    <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Transform.cginc" />
+    <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\SDF.cginc" />
     <None Include="Assets\mihayou\Shaders\TerrainLit_Stencil.shader" />
     <None Include="Assets\mihayou\FX\StargateCG.cginc" />
+    <None Include="Assets\Mirza\Portal VFX\Shaders\Light Cylinder.shader" />
+    <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Intersection Grid.shader" />
     <None Include="Assets\mihayou\Materials\Shasder\M_Distortion.shader" />
+    <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Glow.shader" />
     <None Include="Assets\mihayou\Materials\Shasder\M_Lava.shader" />
     <None Include="Assets\mihayou\shikongfazheng\M_MaskBlended.shader" />
+    <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Intersection.shader" />
     <None Include="Assets\mihayou\Shaders\M_ThrilLayerPBR.shader" />
+    <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\External\Common\glsl-translations.hlsl" />
+    <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Colour.cginc" />
     <None Include="Assets\mihayou\Materials\Shasder\M_Crcak.shader" />
     <None Include="Assets\mihayou\Lava\M_Lava.shader" />
+    <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Ring.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
