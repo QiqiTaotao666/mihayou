@@ -6445,94 +6445,6 @@ Transform:
   - {fileID: 1144088242}
   m_Father: {fileID: 1439448122}
   m_LocalEulerAnglesHint: {x: 0, y: -6.185, z: 0}
---- !u!1001 &406528098
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7944692482094937778, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: waves.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7944692482094937778, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: waves.Array.data[0]
-      value: 
-      objectReference: {fileID: 1139557801}
-    - target: {fileID: 7944692482094937778, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: waves.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7944692482094937778, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7944692482094937778, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: da9322008f016c546a53c94c9b7428f9, type: 2}
-    - target: {fileID: 8118457850490062243, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118457850490062243, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118457850490062243, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118457850490062243, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118457850490062243, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118457850490062243, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118457850490062243, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118457850490062243, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118457850490062243, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8118457850490062243, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136619946211994401, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-      propertyPath: m_Name
-      value: Portal Waves Manager
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
---- !u!114 &406528099 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7944692482094937778, guid: a28b179b6bb4e644391501c436db62d5, type: 3}
-  m_PrefabInstance: {fileID: 406528098}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c25901e3e36739441b28afaf5a2bc149, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &457381987
 GameObject:
   m_ObjectHideFlags: 0
@@ -11094,7 +11006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 555f899ae4e32244f8d6f8147de06051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manager: {fileID: 406528099}
+  manager: {fileID: 0}
   radiusScale: 1
   scale: 1
   speed: 1
@@ -16190,6 +16102,55 @@ Transform:
   - {fileID: 1582918188}
   m_Father: {fileID: 1439448122}
   m_LocalEulerAnglesHint: {x: 0, y: -88.744, z: 0}
+--- !u!1 &1873863748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1873863750}
+  - component: {fileID: 1873863749}
+  m_Layer: 0
+  m_Name: PortalManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1873863749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873863748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25901e3e36739441b28afaf5a2bc149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - {fileID: 1139557801}
+  materials:
+  - {fileID: 2100000, guid: da9322008f016c546a53c94c9b7428f9, type: 2}
+  waveCountPropertyName: _WaveCount
+--- !u!4 &1873863750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873863748}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -126.927376, y: 88.79969, z: 52.433155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1900682720
 GameObject:
   m_ObjectHideFlags: 0
@@ -17549,9 +17510,9 @@ SceneRoots:
   - {fileID: 665423900}
   - {fileID: 1900682722}
   - {fileID: 861871346}
-  - {fileID: 406528098}
   - {fileID: 1139557806}
   - {fileID: 773084171}
   - {fileID: 1801527761}
   - {fileID: 1184109209}
   - {fileID: 1439448122}
+  - {fileID: 1873863750}
