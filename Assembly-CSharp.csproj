@@ -103,7 +103,6 @@
     <None Include="Assets\Mirza\Portal VFX\Shaders\Portal Noise.shader" />
     <None Include="Assets\mihayou\FX\StargateCG.hlsl" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Lighting.cginc" />
-    <None Include="Assets\mihayou\FX\M_Spacial.shader" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Blur.cginc" />
     <None Include="Assets\Mirza\Portal VFX\Shaders\Portals.cginc" />
     <None Include="Assets\Mirza\Portal VFX\README.txt" />
@@ -115,7 +114,6 @@
     <None Include="Assets\mihayou\Star\Water\M_Water.shader" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\Particles\Unlit Particle.shader" />
     <None Include="Assets\mihayou\Shaders\TerrainLitBase_Stencil.shader" />
-    <None Include="Assets\mihayou\FX\M_Tunnel.shader" />
     <None Include="Assets\mihayou\Star\Moon\M_Sun Corna.shader" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\Transform.cginc" />
     <None Include="Assets\Mirza\VFXToolkit\Shaders\_Includes\SDF.cginc" />
