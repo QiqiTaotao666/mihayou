@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cubemap:
-        m_Texture: {fileID: 8900000, guid: 01cb8eed18328cc4186c2039fd644a98, type: 3}
+        m_Texture: {fileID: 8900000, guid: 50d1a8bd843e1cb4396889279e83f110, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _StarGradient:

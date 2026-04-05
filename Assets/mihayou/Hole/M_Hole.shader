@@ -13,6 +13,15 @@ Shader "Custom/M_Hole"
         _SwirlSpeed ("Swirl Speed", Float) = 1
         _SwirlStrength ("Swirl Strength", Range(0, 2)) = 0.5
         _EdgeWidth ("Edge Width (Swirl Area)", Range(0, 1)) = 0.3
+
+        // Stencil
+        _StencilRef("Stencil Ref", Range(0, 255)) = 0
+        [Enum(UnityEngine.Rendering.CompareFunction)] _StencilComp("Stencil Comp", Float) = 8
+        [Enum(UnityEngine.Rendering.StencilOp)] _StencilPass("Stencil Pass", Float) = 0
+        [Enum(UnityEngine.Rendering.StencilOp)] _StencilFail("Stencil Fail", Float) = 0
+        [Enum(UnityEngine.Rendering.StencilOp)] _StencilZFail("Stencil ZFail", Float) = 0
+        _StencilReadMask("Stencil Read Mask", Range(0, 255)) = 255
+        _StencilWriteMask("Stencil Write Mask", Range(0, 255)) = 255
     }
     SubShader
     {
@@ -27,6 +36,17 @@ Shader "Custom/M_Hole"
         {
             Name "Unlit"
             Tags { "LightMode" = "UniversalForward" }
+
+            Stencil
+            {
+                Ref [_StencilRef]
+                Comp [_StencilComp]
+                Pass [_StencilPass]
+                Fail [_StencilFail]
+                ZFail [_StencilZFail]
+                ReadMask [_StencilReadMask]
+                WriteMask [_StencilWriteMask]
+            }
 
             Blend SrcAlpha OneMinusSrcAlpha
             ZWrite Off
