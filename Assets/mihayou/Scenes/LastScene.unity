@@ -16143,7 +16143,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c25901e3e36739441b28afaf5a2bc149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waves: []
+  waves:
+  - {fileID: 1139557801}
   materials:
   - {fileID: 2100000, guid: da9322008f016c546a53c94c9b7428f9, type: 2}
   waveCountPropertyName: _WaveCount
@@ -17522,8 +17523,8 @@ SceneRoots:
   - {fileID: 1900682722}
   - {fileID: 861871346}
   - {fileID: 1139557806}
+  - {fileID: 1873863750}
   - {fileID: 773084171}
   - {fileID: 1801527761}
   - {fileID: 1184109209}
   - {fileID: 1439448122}
-  - {fileID: 1873863750}
