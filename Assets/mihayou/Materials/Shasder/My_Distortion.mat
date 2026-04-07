@@ -46,7 +46,7 @@ Material:
     - _TintStrength: 0
     - _UseMask: 0
     - _UseTint: 0
-    - _WaveCount: 1
+    - _WaveCount: 0
     - _WaveNormalStrength: 1.01
     - _WavePower: 1
     - _WaveVertexOffset: 0

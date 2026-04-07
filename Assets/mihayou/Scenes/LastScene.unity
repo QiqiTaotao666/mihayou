@@ -6406,11 +6406,11 @@ Transform:
   m_GameObject: {fileID: 379708937}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.61, y: 23.4, z: -12.351181}
+  m_LocalPosition: {x: 8.610001, y: 23.4, z: -12.351181}
   m_LocalScale: {x: 4.7035, y: 4.7035, z: 4.7035}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1801527761}
+  m_Father: {fileID: 773084171}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &390603024
 GameObject:
@@ -9211,6 +9211,7 @@ Transform:
   - {fileID: 1152492449}
   - {fileID: 1641142040}
   - {fileID: 561004303}
+  - {fileID: 379708941}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &819853219
@@ -10993,7 +10994,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1139557801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11476,6 +11477,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -867467807413586525, guid: 74f118f84c51c4c4b9a6a0f5192b41ae, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -867467807413586525, guid: 74f118f84c51c4c4b9a6a0f5192b41ae, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6146a19dae06c704498833f0b9576fdd, type: 2}
@@ -11785,6 +11790,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 807c08b7f5699814ea60d93326704efa, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 807c08b7f5699814ea60d93326704efa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14791,7 +14800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisablePixelLights: 1
   m_TextureSize: 2048
-  m_ClipPlaneOffset: 0.25
+  m_ClipPlaneOffset: 1.13
   m_ReflectLayers:
     serializedVersion: 2
     m_Bits: 55
@@ -15849,6 +15858,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 807c08b7f5699814ea60d93326704efa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15895,7 +15908,6 @@ Transform:
   - {fileID: 2006345960}
   - {fileID: 1749772329}
   - {fileID: 2048047361}
-  - {fileID: 379708941}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1847517399
@@ -15944,7 +15956,7 @@ GameObject:
   - component: {fileID: 1852302960}
   - component: {fileID: 1852302959}
   m_Layer: 0
-  m_Name: rere
+  m_Name: Moon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16131,8 +16143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c25901e3e36739441b28afaf5a2bc149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waves:
-  - {fileID: 1139557801}
+  waves: []
   materials:
   - {fileID: 2100000, guid: da9322008f016c546a53c94c9b7428f9, type: 2}
   waveCountPropertyName: _WaveCount
